@@ -9,7 +9,7 @@ def create_df(field_1, field_2, field_3, field_4, field_5,
     data = {
         'customerID': [field_1], # customer_id
         'gender': [field_2], # gender
-        'SeniorCitizen': [field_3], # senior_citizen convert to 0 or 1
+        'SeniorCitizen': [field_3], # senior_citizen
         'Partner': [field_4], # partner
         'Dependents': [field_5], # dependents
         'tenure': [field_6], # tenure
