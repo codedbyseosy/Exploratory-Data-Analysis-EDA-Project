@@ -1,0 +1,302 @@
+/* ======= GLOBAL TEXT COLOR OVERRIDE ======= */
+    .stApp, .stApp * {
+        color: #2D130B !important;
+    }
+
+    /* Specific text elements */
+    .stMarkdown, p, label, div {
+        color: #2D130B !important;
+    }
+
+
+    /* ======= MAIN BACKGROUND ======= */
+    .stApp {
+        background-color: #F2EAD5;
+    }
+
+    /* ======= TITLE STYLING ======= */
+    h1 {
+        color: #2D130B !important;
+        border-bottom: 5px dotted #2D130B !important;
+        padding-bottom: 15px !important;
+        font-family: 'Arial', sans-serif !important;
+        text-align: center !important;
+        margin-bottom: 20px !important;
+    }
+
+/* ======= BORDERED CONTAINER WITH BACKGROUND =======
+    .content-border {
+        border: 3px solid #F4991A !important;
+        border-radius: 15px !important;
+        padding: 25px !important;
+        margin: 20px 0 !important;
+        background-color: #CEB592 !important;
+        box-shadow: 0 4px 12px rgba(244, 153, 26, 0.2) !important;
+    }*/
+
+
+    /* ======= CUSTOMER ID SUBHEADER ======= */
+    .customer-id-header {
+        color: #2D130B !important;
+        padding: 15px 20px !important;
+        margin: 20px 0 !important;
+        font-weight: bold !important;
+    }
+
+    /* ======= HEADERS ======= */
+    h2, h3 {
+        color: #2D130B !important;
+        font-family: 'Arial', sans-serif !important;
+    }
+
+    h2 {
+        border-left: 4px solid #F4991A !important;
+        padding-left: 15px !important;
+        margin: 15px 0 !important;
+    }
+
+    /* ======= TABS ======= */
+    /* Tab Container */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 2px;
+        padding: 5px;
+        border-radius: 10px;
+        border-bottom: 2px solid #2D130B !important;
+        background-color: transparent !important;
+        justify-content: center !important;
+        display: flex !important;
+        width: 100% !important;
+    }
+
+    /* Individual Tabs */
+    .stTabs [data-baseweb="tab"] {
+        height: 50px;
+        white-space: pre-wrap;
+        background-color: #F8F9FA !important;
+        border-radius: 8px 8px 0px 0px;
+        gap: 1px;
+        padding: 10px 16px !important;
+        border-bottom: 2px solid transparent !important;
+        color: #9A9994 !important;
+        font-weight: 500 !important;
+        transition: all 0.3s ease !important;
+        flex: 1 !important; /* Equal width tabs */
+        min-width: 0 !important; /* Allow equal distribution */
+        text-align: center !important; /* Center text within each tab */
+        margin: 0 2px !important; /* Small gap between tabs */
+    }
+
+    /* Active Tab  */
+    .stTabs [aria-selected="true"] {
+        background-color: #E9ECEF !important;
+        color: #2D130B !important;
+        font-weight: 800 !important;
+        border-bottom: 3px solid #301211 !important;
+        font-size: 16px !important; /* Slightly larger when active */
+    }
+
+    /* Inactive Tabs  */
+    .stTabs [aria-selected="false"] {
+        background-color: #EDE3CB !important;
+        color: #9A9994 !important;
+        font-weight: 500 !important;
+
+    }
+
+    /* Hover Effect - Text gets bigger and darker */
+    .stTabs [data-baseweb="tab"]:hover {
+        background-color: transparent !important;
+        color: #2D130B !important;
+        font-size: 16px !important; /* Larger on hover */
+        font-weight: 600 !important; /* Slightly bolder on hover */
+        transform: translateY(-1px) !important;
+    }
+
+    /* Active tab hover - keep it bold but still scale */
+    .stTabs [data-baseweb="tab"][aria-selected="true"]:hover {
+        font-size: 17px !important; /* Even larger when hovering active tab */
+        font-weight: 800 !important; /* Keep the bold weight */
+    }
+
+     div[data-baseweb="tab-highlight"] {
+        background-color: transparent !important;
+    }
+
+
+    /* ======= COLUMN DIVIDERS ======
+    .custom-columns-container {
+        display: flex;
+        gap: 30px;  /* Space between columns
+        position: relative;
+    }
+
+    .custom-columns-container::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 5%;
+        bottom: 5%;
+        width: 2px;
+        background-color: #F4991A;
+        transform: translateX(-50%);
+        opacity: 0.6;
+    }
+
+    .column-content {
+        flex: 1;
+        padding: 0 15px;
+    }*/
+
+    /* ======= INPUT FIELDS ======= */
+    /* Radio Buttons - FIXED: changed 'border_radius' to 'border-radius' */
+    .stRadio > div {
+        background-color: #EDE3CB !important;
+        border: 2px solid #855C18 !important;
+        border-radius: 8px !important;  /* FIXED: was 'border_radius' */
+        padding: 15px !important;
+        margin: 10px 0 !important;
+    }
+
+    /* Radio button labels */
+    .stRadio label {
+        color: #1A0F00 !important;
+        font-weight: 500 !important;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+
+
+
+    /* Select Boxes  */
+    .stSelectbox > div > div {
+        background-color: #EDE3CB !important;
+        border: 2px solid #855C18 !important;
+        border-radius: 8px !important;
+        color: #1A0F00 !important;
+        font-weight: 500 !important;
+    }
+
+
+    .stSelectbox > div > div:hover {
+        border-color: #FFB74D !important;
+    }
+
+    /* Sliders */
+    .stSlider > div > div > div {
+    background-color: #855C18 !important;
+    color: #1A0F00 !important;
+    font-weight: 500 !important;
+    }
+
+    /* Slider track */
+    div[data-testid="stSlider"] > div > div > div > div {
+        background-color: #301211 !important;
+        height: 6px !important;
+        border-radius: 3px !important;
+        z-index: 1 !important;
+    }
+
+    /* Force all text to brown */
+    .stApp, .stApp * {
+        color: #2D130B !important;
+    }
+
+
+
+    /* Number Input  */
+    /* Main input styling */
+    div[data-testid="stNumberInputContainer"] > div > div > input {
+        background-color: #EDE3CB !important;
+        border: 2px solid #855C18  !important;
+        border-radius: 8px !important;
+        padding: 10px 12px !important;
+        color: #2D130B !important;
+        font-weight: 500 !important;
+    }
+
+    /* Remove any nested borders causing darkness */
+    div[data-testid="stNumberInputContainer"] > div,
+    div[data-testid="stNumberInputContainer"] > div > div {
+        background-color: #EDE3CB !important;
+        border: none !important;
+        border-radius: 8px !important;
+    }
+
+    /* Focus state */
+    div[data-testid="stNumberInputContainer"] > div > div > input:focus {
+        border-color: #FFB74D !important;
+        box-shadow: 0 0 0 2px rgba(255, 183, 77, 0.2) !important;
+    }
+
+    /* Label styling - multiple selectors to catch different structures */
+    div[data-testid="stNumberInputContainer"] label,
+    div[data-testid="stNumberInputContainer"] + span,
+    div[data-testid="stNumberInputContainer"] + div,
+    div[data-testid="stNumberInputContainer"] ~ div:first-of-type {
+        color: #2D130B !important;
+        font-weight: 600 !important;
+    }
+
+    /* Target the specific text above "Monthly charges" */
+    div:contains("What is the customer's total monthly charge") {
+        color: #2D130B !important;
+        font-weight: 600 !important;
+    }
+
+
+
+
+    /* ======= BUTTONS ======= */
+    .stButton {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+        margin: 20px 0 !important;
+
+    }
+
+    .stButton > button {
+        background-color: #F4991A !important;
+        color: #000000 !important;
+        border-radius: 25px !important;
+        padding: 15px 60px !important;
+        border: none !important;
+        font-weight: bold !important;
+        font-size: 18px !important;
+        min-width: 250px !important; /* Minimum width */
+        width: auto !important;
+        transition: all 0.3s ease !important;
+        box-shadow: 0 4px 8px rgba(244, 153, 26, 0.3) !important;
+    }
+
+    .stButton > button:hover {
+        background-color: #FFD8A5 !important;
+        color: #000000 !important;
+        border: 1px solid #F4991A !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 6px 12px rgba(244, 153, 26, 0.4) !important;
+    }
+
+    /* Active/focus state */
+    .stButton > button:focus {
+        outline: none !important;
+        box-shadow: 0 0 0 3px rgba(244, 153, 26, 0.3) !important;
+    }
+
+    /* Style other elements */
+    .stTextInput > div > div > input {
+        background-color: #FFFFFF !important;
+        border: 1px solid #F4991A !important;
+        border-radius: 4px !important;
+    }
+
+    /* Style metric cards */
+    [data-testid="metric-container"] {
+        background-color: #FFFFFF !important;
+        border: 1px solid #F4991A !important;
+        border-radius: 10px !important;
+        padding: 15px !important;
+    }
+
+

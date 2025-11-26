@@ -1,6 +1,15 @@
 [theme]
+# Main accent colour - affects buttons, sliders, selected states
 primaryColor = "#F4991A"
+
+# Main app background colour
 backgroundColor = "#F2EAD5"
+
+# Background colour for containers and cards
 secondaryBackgroundColor = "#CEB592"
+
+# Colour for all text content
 textColor = "#2D130B"
+
+# Font family for the entire app
 font = "sans serif"

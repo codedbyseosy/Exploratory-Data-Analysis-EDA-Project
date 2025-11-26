@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72191e96-06b7-4f00-9cfe-776012952d1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/customer_churn_app/helper_functions/create_df.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer_churn_app/helper_functions/create_feature_matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer_churn_app/helper_functions/encoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer_churn_app/helper_functions/feature_engineering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer_churn_app/helper_functions/generateCustomerID.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer_churn_app/helper_functions/predict_churn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer_churn_app/helper_functions/preprocess_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer_churn_app/helper_functions/write_to_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Telco Customer Churn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Telco Customer Churn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer_churn_app/.streamlit/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer_churn_app/helper_functions/load_css.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer_churn_app/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis_reports/01_eda_report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_reports/01_eda_report.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/streamlit_app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployed_model/final_cost_sensitive_voting_ensemble.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/01_eda.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/01_eda.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/02_modelling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/02_modelling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/03_evaluation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/03_evaluation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer_churn_app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer_churn_app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer_churn_app/customer_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/customer_churn_app/customer_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer_churn_app/helper_functions/create_feature_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer_churn_app/helper_functions/create_feature_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer_churn_app/helper_functions/encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer_churn_app/helper_functions/encoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer_churn_app/helper_functions/generateCustomerID.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer_churn_app/helper_functions/generateCustomerID.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer_churn_app/helper_functions/preprocess_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer_churn_app/helper_functions/preprocess_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.app.executor": "Run",
-    "Python.test_features.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/eseoseodion/Documents/Portfolio/Customer Churn Prediction"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_features.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/eseoseodion/Documents/Portfolio/Customer Churn Prediction&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/customer_churn_app/" />
@@ -121,6 +122,36 @@
       <option name="presentableId" value="Default" />
       <updated>1747785336133</updated>
     </task>
+    <task id="LOCAL-00001" summary="Customer prediction app is now ready with minor changes left to complete">
+      <option name="closed" value="true" />
+      <created>1762015689256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762015689256</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Customer prediction app is now ready with minor changes left to complete">
+      <option name="closed" value="true" />
+      <created>1762015997611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762015997611</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Customer prediction app is now ready with minor changes left to complete">
+      <option name="closed" value="true" />
+      <created>1762016115458</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762016115458</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Extra files to add" />
+    <MESSAGE value="Customer prediction app is now ready with minor changes left to complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer prediction app is now ready with minor changes left to complete" />
   </component>
 </project>
